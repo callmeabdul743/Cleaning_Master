@@ -3,13 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Agency FB;
+    scroll-behavior: smooth;
 }
 html, body{
     width: 100%;
     height: 100%;
 }
+/* Main1 styling */
 .main1{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #FAC742;
 }
@@ -73,4 +75,76 @@ html, body{
     display: inline-block;
     text-decoration: none;
     margin-top: 10px;
+}
+
+/* Main2 styling */
+.main2{
+    width:100%;
+    height: 100%;
+    background-color: black;
+}
+.main2up{
+    text-align: center;
+}
+.main2up a{
+    display: inline-block;
+    margin:30px;
+    color:white;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.main2 a span{
+    color:#FAC742;
+}
+.main2down{
+    /* width: 100%;
+    height: auto; */
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.services{
+    width: 25%;
+    margin: 20px 30px;
+    box-shadow: 0 2px 15px #FAC742;
+    border-radius: 20px;
+    padding:20px;
+}
+.img{
+    width:100%;
+    height:400px;
+}
+.img1{
+    background-image: url(Picture/pic2.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.img2{
+    background-image: url(Picture/pic3.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 350px;
+    background-size: cover;
+}
+.img3{
+    background-repeat: no-repeat;
+    background-image: url(Picture/pic4.jpg);
+    border-radius: 20px;
+    height: 350px;
+    background-size: cover;
+}
+.services h3{
+    margin:10px 0px;
+    color: #FAC742; 
+}
+.services a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top:1px solid #FAC742;
 }
