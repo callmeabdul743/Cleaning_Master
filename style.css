@@ -54,11 +54,12 @@ html, body{
     width: 400px;
     height: auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 15px #FAC742;
     border-radius: 20px;
     position: absolute;
     right: 100px;
-    bottom: 100px;
+    bottom: 60px;
 }
 .inner_contect h2{
     color: #FAC742;
@@ -80,11 +81,12 @@ html, body{
 /* Main2 styling */
 .main2{
     width:100%;
-    height: 100%;
+    height: 90%;
     background-color: black;
 }
 .main2up{
     text-align: center;
+    background-color: black;
 }
 .main2up a{
     display: inline-block;
@@ -94,12 +96,11 @@ html, body{
     font-size: 40px;
     font-weight: 900;
 }
-.main2 a span{
+.main2up a span{
     color:#FAC742;
 }
 .main2down{
-    /* width: 100%;
-    height: auto; */
+
     color:white;
     display: flex;
     justify-content: center;
@@ -110,6 +111,9 @@ html, body{
     box-shadow: 0 2px 15px #FAC742;
     border-radius: 20px;
     padding:20px;
+}
+.services:hover{
+    box-shadow: 0 4px 20px #FAC742;
 }
 .img{
     width:100%;
@@ -147,4 +151,87 @@ html, body{
     margin-top: 10px;
     padding-top: 10px;
     border-top:1px solid #FAC742;
+}
+/* main 3 styling */
+.main3{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto, auto;
+    grid-gap: 20px;
+    padding:30px;
+}
+.mains{
+    height: auto;
+}
+.main3_1{
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 5px 3px 15px #FAC742;
+    color: white;
+    padding:30px;
+}
+.main3_1 img{
+    width: 180px;
+}
+.main3_1 h2{
+    font-size: 30px;
+    color: white;
+}
+.main3_1 h2 span{
+    color:#FAC742;
+}
+.main3_1 p{
+    font-size: 18px;
+}
+.main3_1 a{
+    display: inline-block;
+    padding-top: 10px;
+    color: white;
+    margin-top:10px;
+    border-top: 2px solid #FAC742;
+    text-decoration: none;
+}
+.main3_2{
+    background-image: url("Picture/pic6.jpg");
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main3_3{
+    background-image: url("Picture/pic5.jpg");
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+}
+.main3_4{
+    border-radius: 30px;
+    box-shadow: 5px 3px 15px #FAC742;
+    background-color: black;
+    color: white;
+    padding:50px;
+}
+.main3_4 img{
+    width: 180px;
+}
+.main3_4 h2{
+    font-size: 30px;
+    color: white;
+}
+.main3_4 h2 span{
+    color:#FAC742;
+}
+.main3_4 p{
+    font-size: 18px;
+}
+.main3_4 a{
+    display: inline-block;
+    padding-top: 10px;
+    color: white;
+    margin-top:10px;
+    border-top: 2px solid #FAC742;
+    text-decoration: none;
 }
