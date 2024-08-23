@@ -302,7 +302,7 @@ html, body{
 /* main5 style */
 .main5{
     width: 100%;
-    height: 50%;
+    height: 45%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -325,6 +325,7 @@ html, body{
     /* background-color: red; */
     padding:50px 100px;
     list-style-position: inside;
+    width: 60%;
 }
 .main5_2 h5{
     font-size: 30px;
@@ -359,4 +360,17 @@ html, body{
     color: white;
     display: inline-block;
     padding-top: 9px;
+}
+.main5_3 a:hover{
+    text-decoration: underline;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #FAC742;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
